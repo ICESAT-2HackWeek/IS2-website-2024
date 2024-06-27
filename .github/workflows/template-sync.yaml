@@ -25,7 +25,7 @@ jobs:
           token: ${{ secrets.GH_PAT }}
 
       - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@fix/#536_templatesyncignore
+        uses: AndreasAugustin/actions-template-sync@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: uwhackweek/jupyterbook-template
